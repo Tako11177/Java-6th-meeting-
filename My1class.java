@@ -8,19 +8,10 @@ public class My1class {
         boolean isStudent = true;
         double lastScore = 91.5;
 
-        System.out.println(firstName);
-        System.out.println(lastName);
-        System.out.println(age);
-        System.out.println(grade);
-        System.out.println(isStudent);
-        System.out.println(lastScore);
+        System.out.println(" my name is: " + firstName + " my last name is: " + lastName + " my age is: " + " my grade is: " + " my status is: " + isStudent + " my score is: " + lastScore);
 
         //პასუხი
-       //Korinteli
-        //32
-        //A
-        //true
-        //91.5
+       // my name is: Tako my last name is: Korinteli my age is:  my grade is:  my status is: true my score is: 91.5
 
 
     }
