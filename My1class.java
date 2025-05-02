@@ -1,18 +1,18 @@
 public class My1class {
     public static void main(String[] args) {
 
-       int age=20;
+       int age=25;
        boolean isStudent=true;
 
 
-       if (!isStudent)
+       if (age>=18 && age<=30)
        {
-           System.out.println("you are student");
+           System.out.println("ჯენზი");
        }  else
        {
-           System.out.println("you are not student");
+           System.out.println("სხვა");
        }
     }
 }
 
-//you are not student
+//ჯენზი
