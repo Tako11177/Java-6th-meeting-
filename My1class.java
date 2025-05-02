@@ -2,23 +2,17 @@ public class My1class {
     public static void main(String[] args) {
 
        int age=20;
+       boolean isStudent=true;
 
 
-
-
-
-       if (age>18)
+       if (isStudent)
        {
-           System.out.println("ამომრჩეველი");
-       } else if (age>88)
+           System.out.println("you are student");
+       }  else
        {
-           System.out.println("პენსიონერი");
-       } else
-       {
-           System.out.println("არასრულწლოვანი");
+           System.out.println("you are not student");
        }
     }
 }
-// არასრულწლოვანი
 
-//თუ დავწერთ 81-ს იქნება მაინც ამომრჩეველი, რადგან პირველი (if) ლოგიკა შესრულდა. if else მოწმდება მხოლოდ მაშინ თუ if არ შესრულდება.
+//you are student
