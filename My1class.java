@@ -8,15 +8,15 @@ public class My1class {
        x=5;
        y=10;
 
-       x=x+3;
-        y+=2;
-
-        System.out.println("I am x:"+ x);
-        System.out.println("I am y:" + y);
-
-// I am x:8 (თავის თავს დაუმატა 3)
-        //I am y:12  y ზრდის თავის თავს 2-ით
-
-
+       if (x<y)
+       {
+           System.out.println("x ნაკლებია y-ზე");
+       }
+       else
+       {
+           System.out.println("x არ არის ნაკლები y-ზე");
+       }
     }
 }
+//დაიბეჭდება
+//x ნაკლებია y-ზე
