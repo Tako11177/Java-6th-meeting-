@@ -1,19 +1,20 @@
 public class My1class {
     public static void main(String[] args) {
 
-        String firstName = "Tako";
-        String lastName = "Korinteli";
-        int age = 32;
-        char grade = 'A';
-        boolean isStudent = true;
-        double lastScore = 91.5;
 
-        System.out.println(firstName);
-        System.out.println(lastName);
-        System.out.println(age);
-        System.out.println(grade);
-        System.out.println(isStudent);
-        System.out.println(lastScore);
+        System.out.println(1+1);
+        System.out.println(2-1);
+        System.out.println(2*3);
+        System.out.println(4/2);
+        System.out.println(20%3); // 20-დან ნაშთის გამოთვლა. გაყოფილი 3-ზე და ნაშთი
+
+        //2
+        //1
+        //6
+        //2
+        //2
+
+
 
         //პასუხი
        // Tako
