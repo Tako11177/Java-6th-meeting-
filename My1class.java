@@ -3,19 +3,20 @@ public class My1class {
 
        int x;
        int y;
-       int z;
+
 
        x=5;
        y=10;
-       z=(x+y);
+
+       x=x+3;
+        y+=2;
 
         System.out.println("I am x:"+ x);
-        System.out.println("I am y:"+ y);
-        System.out.println("I am z:"+ z);
+        System.out.println("I am y:" + y);
+
+// I am x:8 (თავის თავს დაუმატა 3)
+        //I am y:12  y ზრდის თავის თავს 2-ით
 
 
     }
 }
-//I am x:5
-//I am y:10
-//I am z:15
