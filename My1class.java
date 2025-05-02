@@ -1,22 +1,24 @@
 public class My1class {
     public static void main(String[] args) {
 
-       int x;
-       int y;
+       int age=20;
 
 
-       x=5;
-       y=10;
 
-       if (x<y)
+
+
+       if (age>18)
        {
-           System.out.println("x ნაკლებია y-ზე");
-       }
-       else
+           System.out.println("ამომრჩეველი");
+       } else if (age>88)
        {
-           System.out.println("x არ არის ნაკლები y-ზე");
+           System.out.println("პენსიონერი");
+       } else
+       {
+           System.out.println("არასრულწლოვანი");
        }
     }
 }
-//დაიბეჭდება
-//x ნაკლებია y-ზე
+// არასრულწლოვანი
+
+//თუ დავწერთ 81-ს იქნება მაინც ამომრჩეველი, რადგან პირველი (if) ლოგიკა შესრულდა. if else მოწმდება მხოლოდ მაშინ თუ if არ შესრულდება.
