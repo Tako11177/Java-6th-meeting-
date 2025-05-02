@@ -5,7 +5,7 @@ public class My1class {
        boolean isStudent=true;
 
 
-       if (isStudent)
+       if (!isStudent)
        {
            System.out.println("you are student");
        }  else
@@ -15,4 +15,4 @@ public class My1class {
     }
 }
 
-//you are student
+//you are not student
