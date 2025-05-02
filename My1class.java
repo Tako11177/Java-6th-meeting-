@@ -1,18 +1,17 @@
 public class My1class {
     public static void main(String[] args) {
 
-        boolean a=true;
-        boolean b=false;
+       int x; //არ აქვს მნიშვნელობა მინიჭებული
+       int y; //არ აქვს მნიშვნელობა მინიჭებული
 
+        String z = null;
+        String w = null;
 
-        System.out.println(a && b); // &&- ნიშნავს და-ს. დადებითი და უარყოფითი მნიშვნელობის შემთხვევაში არის false.
-        System.out.println(a||b); //  ||-ნიშნავს ან-ს. ამ შემთხვევაში არის true
-        System.out.println(!a); // a-ს შეტრიალებული ვარიანტი true
-
+        System.out.println("I am z:"+ z);
+        System.out.println("I am w:"+ w);
 
 
     }
 }
-//false
-//true
-//false
+//I am z:null
+//I am w:null
